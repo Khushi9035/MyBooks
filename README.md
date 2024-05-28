@@ -1,4 +1,4 @@
-# Book Managment system
+# Book Management 
 
 => start with npm i
 => In config file change Mongo url add yours.
