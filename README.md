@@ -1,6 +1,15 @@
 # Book Management 
 
-->Install Project Dependencies
+#Description
+The Book Management System is a full-stack web application that allows users to manage a collection of books. Users can add, view, update, and delete books from the system. The backend is built with Node.js and Express, while the frontend is developed using React with Vite for faster builds and Tailwind CSS for styling.
+
+#Tech Stack
+Backend: Node.js, Express
+Frontend: React, Vite, Tailwind CSS
+Database: MongoDB 
+
+#Installation and Setup
+->Install Project Dependencies <br/>
 In the root directory of the project, run the following command to install the required dependencies:
 npm install
 
