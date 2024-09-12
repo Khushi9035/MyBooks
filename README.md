@@ -1,21 +1,21 @@
 # Book Management 
 
-#Description
+Description
 The Book Management System is a full-stack web application that allows users to manage a collection of books. Users can add, view, update, and delete books from the system. The backend is built with Node.js and Express, while the frontend is developed using React with Vite for faster builds and Tailwind CSS for styling.
 
-#Tech Stack
-Backend: Node.js, Express
-Frontend: React, Vite, Tailwind CSS
-Database: MongoDB 
+Tech Stack<br/>
+Backend: Node.js, Express<br/>
+Frontend: React, Vite, Tailwind CSS<br/>
+Database: MongoDB <br/>
 
-#Installation and Setup
+#Installation and Setup <br/>
 ->Install Project Dependencies <br/>
-In the root directory of the project, run the following command to install the required dependencies:
+In the root directory of the project, run the following command to install the required dependencies:<br/>
 npm install
 
-->Configure Database Connection
-Navigate to the config. Update the MongoDB connection URL with your own MongoDB URL(or in .env file).
-MONGO_URI=mongodb://<your-database-url>:<port>/<your-database-name>
+->Configure Database Connection<br/>
+Navigate to the config. Update the MongoDB connection URL with your own MongoDB URL(or in .env file).<br/>
+MONGO_URI=mongodb://<your-database-url>:<port>/<your-database-name><br/>
 
 ->Run the Backend Server
 After configuring the database, switch to the backend directory and start the server using the following command:
