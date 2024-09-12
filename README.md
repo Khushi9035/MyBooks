@@ -11,19 +11,19 @@ Database: MongoDB <br/>
 ## Installation and Setup** <br/>
 ->Install Project Dependencies <br/>
 In the root directory of the project, run the following command to install the required dependencies:<br/>
-### npm install
+npm install<br/>
 
 ->Configure Database Connection<br/>
 Navigate to the config. Update the MongoDB connection URL with your own MongoDB URL(or in .env file).<br/>
-### MONGO_URI=mongodb://<your-database-url>:<port>/<your-database-name> <br/>
+MONGO_URI=mongodb://<your-database-url>:<port>/<your-database-name> <br/>
 
 ->Run the Backend Server<br/>
 After configuring the database, switch to the backend directory and start the server using the following command:<br/>
-### npm start<br/>
+npm start<br/>
 
 ->Run the Frontend (Client-Side) Application<br/>
 Open a new terminal window and switch to the frontend folder (typically the client/ directory). Run the following command to start the frontend server:<br/>
-### npm run dev<br/>
+npm run dev<br/>
 
 ->Check for Errors<br/>
 If you encounter any errors during these steps, check the package.json file for missing dependencies or incorrect scripts. Ensure the proper scripts and dependencies are listed in both the backend and frontend package.json files.<br/>
